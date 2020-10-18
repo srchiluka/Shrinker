@@ -50,6 +50,8 @@ const y = canvas.height / 2
 const player = new Player(x, y, 30, 'blue')
 player.draw()
 
+const projectiles = []
+
 const projectile = new Projectile(
     canvas.width / 2,
     canvas.height / 2,
